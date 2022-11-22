@@ -1,0 +1,22 @@
+{
+  "name": "james/ordersaver",
+  "type": "magento2-module",
+  "description": "James Order Saver Extension",
+  "version": "1.0.0",
+  "license": [
+        "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    ],
+  "require": {},
+  "authors": [
+        {
+            "name": "James Reed",
+            "email": "james.reed@startnet.co.uk"
+        }
+    ],
+   "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "James\\OrderSaver\\": ""
+        }
+    }
+}

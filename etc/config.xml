@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <ordersaver>
+            <general>
+                <enabled>1</enabled>
+                <filename_path>MAGENTO_ROOT/var/log/orderSaver.log</filename_path>
+            </general>
+        </ordersaver>
+    </default>
+</config>
